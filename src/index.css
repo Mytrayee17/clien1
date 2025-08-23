@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NAVYA'S Dental Hospital Design System - Premium 21st.dev inspired */
+
+@layer base {
+  :root {
+    /* NAVYA Brand Colors - Medical Blue Palette */
+    --background: 0 0% 100%;
+    --foreground: 218 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 218 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 218 84% 4.9%;
+
+    /* Brand Primary - #1270ED */
+    --primary: 214 89% 49%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Brand Accent - #18A0E2 */
+    --accent: 196 79% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Brand Paper - #F4F9F9 */
+    --secondary: 180 23% 97%;
+    --secondary-foreground: 214 89% 49%;
+
+    /* Brand Dark - #0243B9 */
+    --dark-accent: 221 96% 36%;
+    --dark-accent-foreground: 0 0% 100%;
+
+    --muted: 180 23% 97%;
+    --muted-foreground: 218 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 23% 90%;
+    --input: 180 23% 94%;
+    --ring: 214 89% 49%;
+
+    --radius: 0.75rem;
+
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 89% 49%), hsl(196 79% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(214 89% 49% / 0.95), hsl(196 79% 50% / 0.9));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(180 23% 97% / 0.6));
+
+    /* Shadows */
+    --shadow-card: 0 4px 24px -4px hsl(214 89% 49% / 0.08);
+    --shadow-hero: 0 20px 60px -10px hsl(214 89% 49% / 0.25);
+    --shadow-elevated: 0 8px 32px -8px hsl(214 89% 49% / 0.12);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 218 84% 4.9%;
+    --foreground: 0 0% 100%;
+
+    --card: 218 84% 4.9%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 218 84% 4.9%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 196 79% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 221 39% 11%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 221 39% 11%;
+    --muted-foreground: 180 23% 85%;
+
+    --accent: 221 96% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --dark-accent: 196 79% 50%;
+    --dark-accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 221 39% 18%;
+    --input: 221 39% 18%;
+    --ring: 196 79% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
