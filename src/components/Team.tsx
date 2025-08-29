@@ -53,66 +53,6 @@ const Team = () => {
     image: doctor2,
     specialties: ["Pediatric Dentistry", "Child Care"],
     education: "M.S."
-  }, {
-    name: "Dr. Sowjanya",
-    role: "Cosmetic Dental Surgeon",
-    image: doctor1,
-    specialties: ["Cosmetic Dentistry", "Smile Designing"],
-    education: "M.D.S."
-  }, {
-    name: "Dr. T. Nalini",
-    role: "Anaesthetist",
-    image: doctor2,
-    specialties: ["Anaesthesia", "Sedation Dentistry"],
-    education: "M.B.B.S., B.A."
-  }, {
-    name: "Dr. M. Nagendra Prasad",
-    role: "Physician",
-    image: doctor1,
-    specialties: ["General Medicine", "Medical Care"],
-    education: "M.D., GEN"
-  }, {
-    name: "Dr. N. Ramakrishna Reddy",
-    role: "Neuro Surgeon",
-    image: doctor2,
-    specialties: ["Neurosurgery", "Brain Surgery"],
-    education: "M.S., M.Ch."
-  }, {
-    name: "Dr. Ch. Ratna Manmohan",
-    role: "Diabetologist",
-    image: doctor1,
-    specialties: ["Diabetes Care", "Endocrinology"],
-    education: "M.D.S., Dip. Dis."
-  }, {
-    name: "Prof. Dr. Y. Subba Rayudu",
-    role: "E.N.T. Specialist",
-    image: doctor2,
-    specialties: ["ENT Surgery", "Ear Nose Throat"],
-    education: "M.S.E.N.T."
-  }, {
-    name: "Dr. Ch. Kalyan Kumar",
-    role: "General Surgeon",
-    image: doctor1,
-    specialties: ["General Surgery", "Surgical Procedures"],
-    education: "M.S. GEN."
-  }, {
-    name: "Dr. N. Sarath Chandra",
-    role: "Neurologist",
-    image: doctor2,
-    specialties: ["Neurology", "Brain Disorders"],
-    education: "M.D.S., (ROM)"
-  }, {
-    name: "R. Sreesha",
-    role: "Audiologist & Speech Therapist",
-    image: doctor1,
-    specialties: ["Audiology", "Speech Therapy"],
-    education: "M.SC.(SLP), P.G.C.P.C.M.S."
-  }, {
-    name: "Dr. K. Subba Rao",
-    role: "Physiotherapist",
-    image: doctor2,
-    specialties: ["Physiotherapy", "Rehabilitation"],
-    education: "D.P.T."
   }];
   const scrollToAppointment = () => {
     const element = document.getElementById('appointment');
@@ -141,7 +81,7 @@ const Team = () => {
           {doctors.map((doctor, index) => <Card key={index} className="group overflow-hidden hover:shadow-elevated transition-all duration-300 hover:-translate-y-2 border-0 bg-card/80 backdrop-blur-sm">
               <div className="aspect-square relative overflow-hidden">
                 <img src={doctor.image} alt={doctor.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+                
               </div>
               
               <CardContent className="p-6">
@@ -164,7 +104,7 @@ const Team = () => {
                   </div>
                 </div>
 
-                <Button onClick={scrollToAppointment} variant="outline" size="sm" className="w-full border-primary text-primary bg-sky-500 hover:bg-sky-400">
+                <Button onClick={scrollToAppointment} variant="outline" size="sm" className="w-full border-primary bg-sky-600 hover:bg-sky-500 text-slate-50">
                   <Calendar className="h-4 w-4 mr-2" />
                   Book Consultation
                 </Button>

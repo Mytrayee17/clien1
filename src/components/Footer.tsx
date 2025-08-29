@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Kondabolu Chowdary Memorial - NAVYA'S INTERNATIONAL DENTAL HOSPITAL has been 
+              Kondaiah Chowdary Memorial - NAVYA'S INTERNATIONAL DENTAL HOSPITAL has been 
               serving the Guntur community for over 25 years with world-class dental care, 
               advanced technology, and compassionate service.
             </p>
@@ -137,7 +137,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
             <div>
-              © {currentYear} Kondabolu Chowdary Memorial - NAVYA'S International Dental Hospital. 
+              © {currentYear} Kondaiah Chowdary Memorial - NAVYA'S International Dental Hospital. 
               All rights reserved.
             </div>
             <div className="flex gap-6">

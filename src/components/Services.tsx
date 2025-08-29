@@ -1,49 +1,59 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Smile, Heart, Zap, Baby, Shield, Scissors, Crown, Sparkles } from "lucide-react";
+
+// Import professional medical icons
+import rootCanalIcon from "@/assets/icons/root-canal-icon.png";
+import dentalImplantIcon from "@/assets/icons/dental-implant-icon.png";
+import surgeryIcon from "@/assets/icons/surgery-icon.png";
+import cosmeticIcon from "@/assets/icons/cosmetic-icon.png";
+import orthodonticsIcon from "@/assets/icons/orthodontics-icon.png";
+import pediatricIcon from "@/assets/icons/pediatric-icon.png";
+import oralCareIcon from "@/assets/icons/oral-care-icon.png";
+import laserIcon from "@/assets/icons/laser-icon.png";
+import sedationIcon from "@/assets/icons/sedation-icon.png";
 const Services = () => {
   const services = [{
-    icon: Heart,
+    icon: rootCanalIcon,
     title: "Root Canal Treatment",
     description: "Pain-free single sitting and multi-sitting root canal therapy using advanced endodontic techniques.",
     features: ["Single Sitting RCT", "Multi Sitting RCT", "Pain-free Treatment", "Advanced Technology"]
   }, {
-    icon: Crown,
+    icon: dentalImplantIcon,
     title: "Dental Implantology",
     description: "World-class implants in association with Indian Dental Education Academy, Chennai.",
     features: ["Wide Range of Implants", "Expert Consultation", "Permanent Solution", "Natural Looking"]
   }, {
-    icon: Scissors,
+    icon: surgeryIcon,
     title: "Maxillofacial Surgeries",
     description: "Advanced facial surgeries including TMJ, orthognathic surgeries, and trauma management.",
     features: ["T.M.J Ankylosis", "Orthognathic Surgery", "Lefort Fractures", "Pan-facial Fractures"]
   }, {
-    icon: Sparkles,
+    icon: cosmeticIcon,
     title: "Cosmetic Dentistry",
     description: "Complete smile designing and aesthetic treatments for a perfect smile transformation.",
     features: ["Smile Designing", "Lip Contouring", "Dimple Creation", "Dental Jewellery"]
   }, {
-    icon: Zap,
+    icon: orthodonticsIcon,
     title: "Orthodontics",
     description: "Orthodontic and dento-facial correction of malocclusions for proper teeth alignment.",
     features: ["Braces Treatment", "Dento-facial Correction", "Malocclusion Treatment", "Smile Alignment"]
   }, {
-    icon: Baby,
+    icon: pediatricIcon,
     title: "Pediatric Dentistry",
     description: "Specialized dental care for children with gentle approach and child-friendly environment.",
     features: ["Child-friendly Care", "Preventive Treatments", "Behavior Management", "Early Intervention"]
   }, {
-    icon: Smile,
+    icon: oralCareIcon,
     title: "Complete Oral Care",
     description: "Comprehensive dental services including prophylaxis, dentures, and bleaching treatments.",
     features: ["Oral Prophylaxis", "Complete Dentures", "Teeth Bleaching", "Fixed & Removable Teeth"]
   }, {
-    icon: Shield,
+    icon: laserIcon,
     title: "Laser Dentistry",
     description: "Advanced laser treatments for precise and minimally invasive dental procedures.",
     features: ["Laser Surgery", "Flap Surgeries", "Minimally Invasive", "Faster Healing"]
   }, {
-    icon: Heart,
+    icon: sedationIcon,
     title: "Sedation Dentistry",
     description: "Comfortable dental treatments with sedation options for anxious patients.",
     features: ["Anxiety Management", "Comfortable Treatment", "Safe Sedation", "Relaxed Experience"]
@@ -58,45 +68,48 @@ const Services = () => {
   };
   return <section id="services" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our Comprehensive
-            <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Dental Services
-            </span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From routine care to complex procedures, we offer a full range of dental services 
-            with the latest technology and expert specialists.
-          </p>
+        <div className="flex justify-between items-end mb-12">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
+              Dental Specialties
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl">
+              Through our comprehensive dental specialties, we provide in-depth expertise in the spectrum of advanced dental and surgical interventions. Our specialties are integrated to provide a seamless experience.
+            </p>
+          </div>
+          <Button variant="ghost" className="text-primary font-semibold hidden md:flex items-center gap-2">
+            VIEW ALL
+            <span className="text-lg">→</span>
+          </Button>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {services.map((service, index) => {
-          const Icon = service.icon;
-          return <Card key={index} className="group hover:shadow-elevated transition-all duration-300 hover:-translate-y-2 border-0 bg-card/80 backdrop-blur-sm">
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <Icon className="h-8 w-8 text-white" />
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-6">
+          {/* All Service Cards */}
+          {services.slice(0, 8).map((service, index) => {
+            return (
+              <Card key={index} className="group hover:shadow-elevated hover:shadow-primary/20 transition-all duration-300 hover:-translate-y-2 hover:scale-105 bg-card/80 backdrop-blur-sm cursor-pointer hover:bg-blue-600 hover:border-blue-600" onClick={scrollToAppointment}>
+                <CardContent className="p-6 text-center h-full flex flex-col relative overflow-hidden">
+                  <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-white group-hover:scale-110 transition-all duration-300 p-2">
+                    <img 
+                      src={service.icon} 
+                      alt={`${service.title} icon`}
+                      className="w-full h-full object-contain transition-all duration-300"
+                    />
                   </div>
-                  <CardTitle className="text-xl font-bold">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-muted-foreground mb-6 text-sm leading-relaxed">
-                    {service.description}
+                  <h3 className="text-lg font-bold mb-3 text-primary group-hover:text-white transition-colors">{service.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed flex-grow group-hover:text-white transition-colors">
+                    {service.description.length > 100 
+                      ? service.description.substring(0, 100) + "..." 
+                      : service.description}
                   </p>
-                  <ul className="space-y-2 mb-6">
-                    {service.features.map((feature, idx) => <li key={idx} className="text-xs text-muted-foreground flex items-center justify-center">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2"></div>
-                        {feature}
-                      </li>)}
-                  </ul>
-                  <Button variant="ghost" size="sm" onClick={scrollToAppointment} className="text-primary font-medium bg-sky-400 hover:bg-sky-300">
-                    Book Consultation
-                  </Button>
+                  <div className="mt-4 flex items-center justify-center gap-2 text-primary font-medium opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:gap-3 group-hover:text-white">
+                    <span className="text-sm">KNOW MORE</span>
+                    <span className="text-lg group-hover:translate-x-1 transition-transform duration-300">→</span>
+                  </div>
                 </CardContent>
-              </Card>;
-        })}
+              </Card>
+            );
+          })}
         </div>
 
         <div className="text-center mt-16">
