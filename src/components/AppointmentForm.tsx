@@ -263,15 +263,14 @@ const AppointmentForm = () => {
                   <div className="space-y-3">
                     <Label htmlFor="email" className="text-sm font-semibold text-foreground flex items-center gap-2">
                       <span className="w-2 h-2 rounded-full bg-primary"></span>
-                      Email Address *
+                      Email Address (optional)
                     </Label>
                     <Input 
                       id="email" 
                       name="email" 
                       type="email" 
-                      required 
                       className="bg-background/80 backdrop-blur-sm border-primary/20 focus:border-primary/50 focus:ring-primary/20 h-12 text-base hover:border-primary/30 transition-all duration-300" 
-                      placeholder="Enter your email address" 
+                      placeholder="Enter your email address (optional)" 
                     />
                   </div>
 
