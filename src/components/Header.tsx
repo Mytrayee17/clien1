@@ -39,7 +39,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
             <div className="h-12 w-12 rounded-full overflow-hidden bg-white p-1 shadow-lg">
-              <img src="/lovable-uploads/7c51b673-6ade-4291-a971-9fdbf9406b70.png" alt="NAVYA'S Dental Hospital" className="h-full w-full object-contain" />
+              <img src="/lovable-uploads/logo.png" alt="NAVYA'S Dental Hospital" className="h-full w-full object-contain" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">NAVYA'S</h1>

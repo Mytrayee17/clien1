@@ -9,35 +9,29 @@ import doctor2 from "@/assets/doctor-2.jpg";
 import doctor21 from "@/assets/doctor-21.jpg";
 const Team = () => {
   const doctors = [{
-    name: "Prof. Dr. Y. Kishore Babu",
+    name: "Prof. Dr. T. Kishore Babu",
     role: "Managing Director & Maxillofacial Surgeon",
     image: img,
     specialties: ["Maxillofacial Surgery", "Implantology"],
     education: "M.D.S."
-  }, {
+  },  {
+    name: "Dr. T  Nalini Kishore",
+    role: "Director & Anesthesiologist",
+    image: doctor1,
+    specialties: ["Anesthetist"],
+    education: "M.B.B.S, D.A"
+  },{
     name: "Dr M Naresh Chandra",
-    role: "Cosmetic Dental Surgeon",
+    role: "Superintendent &Cosmetic Dental Surgeon",
     image: doctor21,
     specialties: ["General Dentistry", "Cosmetic Dentistry"],
     education: "B.D.S"
   }, {
-    name: "Dr. Sunil Surapaneni",
-    role: "Periodontist",
+    name: "Dr Y Sucharitha",
+    role: "Root Canal Specialist",
     image: doctor1,
-    specialties: ["Periodontics", "Gum Surgery"],
-    education: "M.D.S."
-  }, {
-    name: "Prof. Dr. A. Ravi Kiran",
-    role: "Oral Medicine & Radiology",
-    image: doctor2,
-    specialties: ["Oral Medicine", "Radiology"],
-    education: "M.D.S."
-  }, {
-    name: "Prof. Dr. Ajay Reginald",
-    role: "Oral Pathologist",
-    image: doctor1,
-    specialties: ["Oral Pathology", "Diagnostics"],
-    education: "M.D.S."
+    specialties: ["Root Canal Treatment"],
+    education: "B.D.S , P.G.C.E"
   }, {
     name: "Dr. M. Raja Sekar",
     role: "Orthodontist",
@@ -45,6 +39,12 @@ const Team = () => {
     specialties: ["Orthodontics", "Dento Facial Correction"],
     education: "M.D.S."
   }, {
+    name: "Prof. Dr. Ajay Reginald",
+    role: "Oral Pathologist",
+    image: doctor1,
+    specialties: ["Oral Pathology", "Diagnostics"],
+    education: "M.D.S."
+  },{
     name: "Dr. Srikanth",
     role: "Cleft Lip & Palate Surgeon",
     image: doctor1,
