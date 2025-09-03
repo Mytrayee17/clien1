@@ -87,33 +87,33 @@ const AppointmentForm = () => {
     // Submit the form
     form.submit();
   };
-  return <section id="appointment" className="py-24 bg-gradient-to-br from-primary/5 via-secondary/20 to-background relative overflow-hidden">
+  return <section id="appointment" className="py-16 md:py-24 bg-gradient-to-br from-primary/5 via-secondary/20 to-background relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(120,119,198,0.1),transparent_50%)]" />
       <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-accent/10 to-transparent rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-20">
+        <div className="text-center mb-12 sm:mb-16 md:mb-20">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm mb-6">
             ✨ Premium Dental Care
           </div>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 leading-tight">
             Schedule Your
             <span className="block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
               Dream Smile
             </span>
-            <span className="block text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-normal mt-4">
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-muted-foreground font-normal mt-3 md:mt-4">
               Consultation
             </span>
           </h2>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Experience world-class dental care with our expert team. Book your personalized 
             consultation and take the first step towards your perfect smile.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-6">
             <a 
@@ -155,7 +155,7 @@ const AppointmentForm = () => {
 
             <Card className="shadow-elevated hover:shadow-hero bg-gradient-to-br from-card/90 to-card/70 backdrop-blur-xl border border-white/20 hover:border-primary/30 transition-all duration-300 group">
               <CardHeader className="pb-4">
-                <CardTitle className="flex items-center gap-3 text-lg">
+                <CardTitle className="flex items-center gap-3 text-base sm:text-lg">
                   <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
                     <Clock className="h-5 w-5 text-primary" />
                   </div>
@@ -174,7 +174,7 @@ const AppointmentForm = () => {
             </Card>
 
             {/* Premium Feature Badge */}
-            <div className="p-6 rounded-2xl bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border border-primary/20 text-center">
+            <div className="p-4 sm:p-6 rounded-2xl bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border border-primary/20 text-center">
               <div className="text-2xl mb-2">⚡</div>
               <h3 className="font-bold text-primary mb-2">Quick Response</h3>
               <p className="text-sm text-muted-foreground">We'll confirm your appointment within 24 hours</p>
@@ -194,7 +194,7 @@ const AppointmentForm = () => {
                     <Calendar className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <CardTitle className="text-3xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+                    <CardTitle className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
                       Book Your Appointment
                     </CardTitle>
                     <p className="text-muted-foreground mt-1">Start your journey to a perfect smile</p>
@@ -216,7 +216,7 @@ const AppointmentForm = () => {
                   <input type="hidden" name="_replyto" value="" />
                   <input type="hidden" name="submission_time" value="" />
 
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
                     <div className="space-y-3">
                       <Label htmlFor="name" className="text-sm font-semibold text-foreground flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full bg-primary"></span>
@@ -274,7 +274,7 @@ const AppointmentForm = () => {
                     />
                   </div>
 
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
                     <div className="space-y-3">
                       <Label htmlFor="preferred_date" className="text-sm font-semibold text-foreground flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full bg-accent"></span>
@@ -342,11 +342,11 @@ const AppointmentForm = () => {
                     />
                   </div>
 
-                  <div className="mt-8">
+                  <div className="mt-6 sm:mt-8">
                     <Button 
                       type="submit" 
                       disabled={isSubmitting} 
-                      className="w-full bg-gradient-to-r from-primary via-accent to-primary hover:from-primary/90 hover:via-accent/90 hover:to-primary/90 text-white font-bold text-lg py-6 px-8 rounded-xl shadow-hero hover:shadow-elevated hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 relative overflow-hidden group"
+                      className="w-full bg-gradient-to-r from-primary via-accent to-primary hover:from-primary/90 hover:via-accent/90 hover:to-primary/90 text-white font-bold text-base sm:text-lg py-4 sm:py-6 px-6 sm:px-8 rounded-xl shadow-hero hover:shadow-elevated hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 relative overflow-hidden group"
                     >
                       {/* Button Background Animation */}
                       <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -380,7 +380,7 @@ const AppointmentForm = () => {
                     )}
                   </div>
 
-                  <div className="mt-6 p-4 rounded-lg bg-secondary/20 border border-primary/10">
+                  <div className="mt-5 sm:mt-6 p-3 sm:p-4 rounded-lg bg-secondary/20 border border-primary/10">
                     <p className="text-sm text-muted-foreground text-center leading-relaxed">
                       🔒 <strong>Your privacy is protected.</strong> By submitting this form, you agree to our privacy policy. 
                       <br />

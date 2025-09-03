@@ -82,7 +82,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/06504c0d-28dc-4e9a-8471-4e56de6b1624.png" 
                 alt="NAVYA'S International Dental Hospital" 
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover animate-float will-change-transform"
               />
             </div>
           </div>

@@ -12,15 +12,15 @@ const Footer = () => {
     }
   };
   return <footer className="bg-dark-accent text-dark-accent-foreground">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+      <div className="container mx-auto px-4 py-12 md:py-16">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 md:gap-8">
           {/* Hospital Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <img src="/lovable-uploads/7c51b673-6ade-4291-a971-9fdbf9406b70.png" alt="NAVYA'S Dental Hospital" className="h-12 w-auto" />
+              <img src="/lovable-uploads/7c51b673-6ade-4291-a971-9fdbf9406b70.png" alt="NAVYA'S Dental Hospital" className="h-10 md:h-12 w-auto" />
             </div>
             
-            <p className="text-gray-300 mb-6 leading-relaxed">
+            <p className="text-gray-300 text-sm sm:text-base mb-6 leading-relaxed">
               Kondaiah Chowdary Memorial - NAVYA'S INTERNATIONAL DENTAL HOSPITAL has been 
               serving the Guntur community for over 25 years with world-class dental care, 
               advanced technology, and compassionate service.
@@ -37,9 +37,10 @@ const Footer = () => {
               
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <div className="text-sm text-gray-300">
-                  <a href="tel:08632337777" className="hover:text-white transition-colors">0863-2235113</a> | 
-                  <a href="tel:9100078787" className="hover:text-white transition-colors ml-1">9100831618</a>
+                <div className="text-sm text-gray-300 whitespace-normal break-words">
+                  <a href="tel:08632337777" className="hover:text-white transition-colors">0863-2235113</a>
+                  <span className="mx-1">|</span>
+                  <a href="tel:9100078787" className="hover:text-white transition-colors">9100831618</a>
                 </div>
               </div>
 
@@ -137,7 +138,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-6 text-center">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
             <div>
-              © {currentYear} Kondaiah Chowdary Memorial - NAVYA'S International Dental Hospital. 
+              {currentYear} Kondaiah Chowdary Memorial - NAVYA'S International Dental Hospital. 
               All rights reserved.
             </div>
             <div className="flex gap-6">
