@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Hospital Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <img src="/lovable-uploads/7c51b673-6ade-4291-a971-9fdbf9406b70.png" alt="NAVYA'S Dental Hospital" className="h-10 md:h-12 w-auto" />
+              <img src="/lovable-uploads/logo.png" alt="NAVYA'S Dental Hospital" className="h-10 md:h-12 w-auto" loading="lazy" />
             </div>
             
             <p className="text-gray-300 text-sm sm:text-base mb-6 leading-relaxed">

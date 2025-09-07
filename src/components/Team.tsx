@@ -6,7 +6,10 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import doctor1 from "@/assets/doctor-1.jpg";
 import img from "@/assets/img.jpg";
 import doctor2 from "@/assets/doctor-2.jpg";
+import doctor12 from "@/assets/doctor-12.jpeg";
+import doctor22 from "@/assets/doctor-22.jpeg";
 import doctor21 from "@/assets/doctor-21.jpg";
+import sucharithaImg from "@/assets/Generated Image September 03, 2025 - 10_24PM.jpeg";
 const Team = () => {
   const doctors = [{
     name: "Prof. Dr. T. Kishore Babu",
@@ -17,7 +20,7 @@ const Team = () => {
   },  {
     name: "Dr. T  Nalini Kishore",
     role: "Director & Anesthesiologist",
-    image: doctor1,
+    image: doctor12,
     specialties: ["Anesthetist"],
     education: "M.B.B.S, D.A"
   },{
@@ -26,37 +29,25 @@ const Team = () => {
     image: doctor21,
     specialties: ["General Dentistry", "Cosmetic Dentistry"],
     education: "B.D.S"
-  }, {
-    name: "Dr Y Sucharitha",
-    role: "Root Canal Specialist",
-    image: doctor1,
-    specialties: ["Root Canal Treatment"],
-    education: "B.D.S , P.G.C.E"
-  }, {
-    name: "Dr. M. Raja Sekar",
-    role: "Orthodontist",
-    image: doctor2,
-    specialties: ["Orthodontics", "Dento Facial Correction"],
-    education: "M.D.S."
-  }, {
+  },{
     name: "Prof. Dr. Ajay Reginald",
     role: "Oral Pathologist",
     image: doctor1,
     specialties: ["Oral Pathology", "Diagnostics"],
     education: "M.D.S."
   },{
-    name: "Dr. Srikanth",
-    role: "Cleft Lip & Palate Surgeon",
-    image: doctor1,
-    specialties: ["Cleft Surgery", "Reconstructive Surgery"],
+    name: "Dr. M. Raja Sekar",
+    role: "Orthodontist",
+    image: doctor22,
+    specialties: ["Orthodontics", "Dento Facial Correction"],
     education: "M.D.S."
-  }, {
-    name: "Ass. Prof. Dr. Ch. Mahesh",
-    role: "Pediatric Dentist",
-    image: doctor2,
-    specialties: ["Pediatric Dentistry", "Child Care"],
-    education: "M.S."
-  }];
+  },{
+    name: "Dr Y Sucharitha",
+    role: "Root Canal Specialist",
+    image: sucharithaImg,
+    specialties: ["Root Canal Treatment"],
+    education: "B.D.S , P.G.C.E"
+  },];
   const scrollToAppointment = () => {
     const element = document.getElementById('appointment');
     if (element) {

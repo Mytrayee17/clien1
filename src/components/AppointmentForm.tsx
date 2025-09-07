@@ -166,7 +166,7 @@ const AppointmentForm = () => {
                 <div className="p-4 rounded-lg bg-secondary/30 border border-primary/10">
                   <p className="text-sm font-medium text-foreground leading-relaxed">
                     <span className="text-primary font-semibold">Monday - Saturday</span><br />
-                    10:00 AM - 2:00 PM<br />
+                    10:30 AM - 7:30 PM<br />
                     <span className="text-red-500 font-semibold">🔴 Sunday Holiday</span>
                   </p>
                 </div>
@@ -202,7 +202,7 @@ const AppointmentForm = () => {
                 </div>
                 <div className="h-1 w-full bg-gradient-to-r from-primary via-accent to-primary rounded-full opacity-20" />
               </CardHeader>
-              <CardContent className="relative z-10">
+              <CardContent className="relative z-10 pb-2">
                 <form ref={formRef} action="https://formspree.io/f/xwpqgbja" method="POST" onSubmit={handleSubmit} className="space-y-6" autoComplete="on" noValidate>
                   {/* Honeypot */}
                   <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" style={{
@@ -337,7 +337,7 @@ const AppointmentForm = () => {
                       id="message" 
                       name="message" 
                       placeholder="Please describe your concerns or any specific requirements..." 
-                      className="bg-background/80 backdrop-blur-sm border-primary/20 focus:border-primary/50 focus:ring-primary/20 min-h-[120px] text-base hover:border-primary/30 transition-all duration-300 resize-none" 
+                      className="bg-background/80 backdrop-blur-sm border-primary/20 focus:border-primary/50 focus:ring-primary/20 min-h-[100px] sm:min-h-[120px] text-base hover:border-primary/30 transition-all duration-300 resize-none w-full rounded-lg" 
                       rows={5} 
                     />
                   </div>
@@ -346,21 +346,23 @@ const AppointmentForm = () => {
                     <Button 
                       type="submit" 
                       disabled={isSubmitting} 
-                      className="w-full bg-gradient-to-r from-primary via-accent to-primary hover:from-primary/90 hover:via-accent/90 hover:to-primary/90 text-white font-bold text-base sm:text-lg py-4 sm:py-6 px-6 sm:px-8 rounded-xl shadow-hero hover:shadow-elevated hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 relative overflow-hidden group"
+                      className="w-full bg-gradient-to-r from-primary via-accent to-primary hover:from-primary/90 hover:via-accent/90 hover:to-primary/90 text-white font-bold text-sm sm:text-base md:text-lg py-3 sm:py-5 px-4 sm:px-8 rounded-xl shadow-hero hover:shadow-elevated hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 relative overflow-hidden group"
                     >
                       {/* Button Background Animation */}
                       <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       
                       {isSubmitting ? (
-                        <div className="flex items-center justify-center gap-3 relative z-10">
+                        <div className="flex items-center justify-center gap-2 sm:gap-3 relative z-10 text-center">
                           <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"></div>
                           <span>Sending Your Request...</span>
                         </div>
                       ) : (
-                        <div className="flex items-center justify-center gap-3 relative z-10">
-                          <Calendar className="h-6 w-6" />
-                          <span>Book Your Dream Smile Consultation</span>
-                          <div className="flex gap-1">
+                        <div className="flex items-center justify-center gap-2 sm:gap-3 relative z-10 text-center">
+                          <Calendar className="h-5 w-5 hidden sm:block" />
+                          {/* Short label on mobile, full label on larger screens */}
+                          <span className="leading-snug sm:hidden">Book Consultation</span>
+                          <span className="leading-snug hidden sm:inline">Book Your Dream Smile Consultation</span>
+                          <div className="hidden sm:flex gap-1">
                             <div className="w-1 h-1 bg-white rounded-full animate-bounce" style={{animationDelay: '0ms'}}></div>
                             <div className="w-1 h-1 bg-white rounded-full animate-bounce" style={{animationDelay: '150ms'}}></div>
                             <div className="w-1 h-1 bg-white rounded-full animate-bounce" style={{animationDelay: '300ms'}}></div>
