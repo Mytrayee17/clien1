@@ -24,9 +24,9 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:08632235113" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
+            <a href="tel:08632235113/12" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
               <Phone className="h-4 w-4" />
-              <span>0863-2235113</span>
+              <span>0863-2235113/12</span>
             </a>
             <a href="tel:9100831618" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
               <Phone className="h-4 w-4" />

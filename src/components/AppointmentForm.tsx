@@ -142,7 +142,7 @@ const AppointmentForm = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
                       <Phone className="h-4 w-4 text-primary" />
-                      <a href="tel:08632235113" className="text-primary hover:text-accent font-medium transition-colors">0863-2235113</a>
+                      <a href="tel:08632235113" className="text-primary hover:text-accent font-medium transition-colors">0863-2235113/12</a>
                     </div>
                     <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
                       <Phone className="h-4 w-4 text-primary" />

@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
                 <div className="text-sm text-gray-300 whitespace-normal break-words">
-                  <a href="tel:08632337777" className="hover:text-white transition-colors">0863-2235113</a>
+                  <a href="tel:08632337777" className="hover:text-white transition-colors">0863-2235113/12</a>
                   <span className="mx-1">|</span>
                   <a href="tel:9100078787" className="hover:text-white transition-colors">9100831618</a>
                 </div>
@@ -49,7 +49,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-accent" />
                 <div className="text-sm text-gray-300">
-                  Monday - Saturday: 10:00 AM - 2:00 PM | Sunday Holiday
+                  Monday - Saturday: 10:30 AM - 7:30 PM | Sunday Holiday
                 </div>
               </div>
             </div>
