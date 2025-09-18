@@ -9,6 +9,7 @@ import doctor2 from "@/assets/doctor-2.jpg";
 import doctor12 from "@/assets/doctor-12.jpeg";
 import doctor22 from "@/assets/doctor-22.jpeg";
 import doctor21 from "@/assets/doctor-21.jpg";
+import dumImg from "@/assets/dum.jpeg";
 import sucharithaImg from "@/assets/Generated Image September 03, 2025 - 10_24PM.jpeg";
 const Team = () => {
   const doctors = [{
@@ -32,7 +33,7 @@ const Team = () => {
   },{
     name: "Prof. Dr. Ajay Reginald",
     role: "Oral Pathologist",
-    image: doctor1,
+    image: dumImg,
     specialties: ["Oral Pathology", "Diagnostics"],
     education: "M.D.S."
   },{

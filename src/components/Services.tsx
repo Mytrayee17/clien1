@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { ReviewsCarousel } from "./ReviewsCarousel";
 
 // Import professional medical icons
 import rootCanalIcon from "@/assets/icons/root-canal-icon.png";
@@ -27,6 +28,11 @@ const Services = () => {
     title: "Root Canal Treatment",
     description: "Pain-free single sitting and multi-sitting root canal therapy using advanced endodontic techniques.",
     features: ["Single Sitting RCT", "Multi Sitting RCT", "Pain-free Treatment", "Advanced Technology"]
+  },{
+    icon: oralCareIcon,
+    title: "Prosthodontics",
+    description: "Prosthodontics is the dental specialty focused on restoring and replacing teeth and other oral structures to improve your smile's appearance, function, and overall health.",
+    features: ["Dentures", "Crowns and Bridges", "Full-Mouth Rehabilitation", "Advanced Technology"]
   },{
     icon: orthodonticsIcon,
     title: "Orthodontics",
@@ -110,6 +116,17 @@ const Services = () => {
               </Card>
             );
           })}
+        </div>
+
+        {/* Reviews Section */}
+        <div className="mt-24 mb-16">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-primary mb-4">What Our Patients Say</h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Don't just take our word for it. Here's what our patients have to say about their experience at Navya's Dental Hospital.
+            </p>
+          </div>
+          <ReviewsCarousel />
         </div>
 
         <div className="text-center mt-16">

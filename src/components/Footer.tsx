@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
                 <div className="text-sm text-gray-300">
-                  <strong>Branch :</strong> A.C. College Main Road, Between Canara Bank & Srichakra Show Room, 
+                  <strong>Branch :</strong> A.C. College Main Road, Between Canara Bank & Suzuki Show Room, 
                   Guntur - 522002
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Footer = () => {
             </div>
 
             {/* Emergency Contact */}
-            <Card className="bg-red-600/20 border-red-500/30 px-4 py-2">
+            <Card id="emergency-contact" className="bg-red-600/20 border-red-500/30 px-4 py-2">
               <div className="flex items-center gap-2 text-sm">
                 <Phone className="h-4 w-4 text-red-400" />
                 <span className="text-red-100">Emergency: </span>

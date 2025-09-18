@@ -135,7 +135,7 @@ const AppointmentForm = () => {
                   <div className="p-4 rounded-lg bg-secondary/30 border border-primary/10">
                     <p className="text-sm font-medium text-foreground leading-relaxed">
                       A.C. College Main Road<br />
-                      Between Canara Bank & Srichakra Show Room<br />
+                      Between Canara Bank & Suzuki Show Room<br />
                       <span className="text-primary font-semibold">Guntur - 522002</span>
                     </p>
                   </div>
