@@ -93,24 +93,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media & Accreditations */}
+        {/* Accreditations & Emergency Contact */}
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            {/* Social Links */}
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-gray-300">Follow us:</span>
-              <div className="flex gap-3">
-                <Button size="sm" variant="ghost" className="text-gray-300 hover:text-white hover:bg-white/10">
-                  <Facebook className="h-4 w-4" />
-                </Button>
-                <Button size="sm" variant="ghost" className="text-gray-300 hover:text-white hover:bg-white/10">
-                  <Instagram className="h-4 w-4" />
-                </Button>
-                <Button size="sm" variant="ghost" className="text-gray-300 hover:text-white hover:bg-white/10">
-                  <Youtube className="h-4 w-4" />
-                </Button>
-              </div>
-            </div>
 
             {/* Emergency Contact */}
             <Card id="emergency-contact" className="bg-red-600/20 border-red-500/30 px-4 py-2">

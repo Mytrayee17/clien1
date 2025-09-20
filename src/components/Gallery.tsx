@@ -122,12 +122,6 @@ const Gallery = () => {
                       </Badge>
                     </div>
                   </div>
-                  <div className="absolute inset-0 bg-background/0 group-hover:bg-background/90 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                    <Button variant="ghost" size="sm" className="text-primary">
-                      <Eye className="h-4 w-4 mr-2" />
-                      View Details
-                    </Button>
-                  </div>
                 </div>
                 
                 <div className="p-6">

@@ -32,28 +32,28 @@ export function ReviewsCarousel() {
     },
     {
       initials: 'SP',
-      name: 'Sunitha Patel',
+      name: 'Siva Prasad ',
       age: 35,
       treatment: 'Porcelain Veneers',
       review: 'I was very conscious about my smile. The cosmetic dentistry treatment transformed my confidence. The veneers look completely natural.'
     },
     {
       initials: 'AM',
-      name: 'Amit Mehta',
+      name: 'Aparna Mahathi',
       age: 38,
       treatment: 'Dental Implant',
       review: 'After losing a tooth in an accident, I was worried about the implant procedure. The team made it completely painless. The implant looks and feels just like a natural tooth!'
     },
     {
       initials: 'PK',
-      name: 'Priya Kulkarni',
+      name: 'Praveen Kumar',
       age: 28,
       treatment: 'Teeth Whitening',
       review: 'The teeth whitening treatment gave me a radiant smile in just one session. The results were beyond my expectations and the process was completely comfortable.'
     },
     {
       initials: 'VS',
-      name: 'Vikram Sharma',
+      name: 'Varsha Sree',
       age: 45,
       treatment: 'Dentures',
       review: 'The custom dentures fit perfectly and look incredibly natural. The entire process was handled with great care and professionalism.'
@@ -133,7 +133,7 @@ export function ReviewsCarousel() {
       <Button 
         variant="outline" 
         size="icon" 
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 backdrop-blur-sm hover:bg-white rounded-full shadow-lg w-10 h-10"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 backdrop-blur-sm hover:bg-blue-500 rounded-full shadow-lg w-10 h-10"
         onClick={handlePrev}
         aria-label="Previous review"
       >
@@ -212,7 +212,7 @@ export function ReviewsCarousel() {
       <Button 
         variant="outline" 
         size="icon" 
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 backdrop-blur-sm hover:bg-white rounded-full shadow-lg w-10 h-10"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 backdrop-blur-sm hover:bg-blue-500 rounded-full shadow-lg w-10 h-10"
         onClick={handleNext}
         aria-label="Next review"
       >
