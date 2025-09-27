@@ -37,6 +37,13 @@ const BeforeAfterSlider = () => {
       procedure: "Orthodontics",
       beforeImage: "/lovable-uploads/d82e0123-d9cc-4224-aadf-ec28b275012e.png",
       afterImage: "/lovable-uploads/d82e0123-d9cc-4224-aadf-ec28b275012e.png"
+    },
+    {
+      id: 4,
+      title: "Patient Treatment Result",
+      procedure: "Dental Care",
+      beforeImage: "/lovable-uploads/16d4a1ae-5721-4a0c-9176-42861e36d0ff.png",
+      afterImage: "/lovable-uploads/WhatsApp Image 2025-09-27 at 13.36.54_7945ee43.jpg"
     }
   ];
 
