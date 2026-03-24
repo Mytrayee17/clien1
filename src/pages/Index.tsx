@@ -30,7 +30,7 @@ const Index = () => {
                 "addressCountry": "IN"
               },
               "telephone": ["0863-2235113", "9100831618"],
-              "url": "https://navyasdental.com"
+              "url": "https://www.navyasinternationaldentalhospital.in"
             },
             {
               "@type": "FAQPage",

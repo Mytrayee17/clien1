@@ -16,7 +16,7 @@ export default function SEO({
   name = "NAVYA'S International Dental Hospital", 
   type = 'website', 
   image = '/assets/hero-dental-hospital.jpg', 
-  url = 'https://navyasdental.com',
+  url = 'https://www.navyasinternationaldentalhospital.in',
   schema 
 }: SEOProps) {
   return (

@@ -43,11 +43,11 @@
 ```xml
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://navyadental.com/sitemap-pages.xml</loc>
+    <loc>https://www.navyasinternationaldentalhospital.in/sitemap-pages.xml</loc>
     <lastmod>2024-09-21</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://navyadental.com/sitemap-blog.xml</loc>
+    <loc>https://www.navyasinternationaldentalhospital.in/sitemap-blog.xml</loc>
     <lastmod>2024-09-21</lastmod>
   </sitemap>
 </sitemapindex>
@@ -56,9 +56,9 @@
 ### **2. Video Sitemap (if you have videos)**
 ```xml
 <url>
-  <loc>https://navyadental.com/videos/dental-procedure</loc>
+  <loc>https://www.navyasinternationaldentalhospital.in/videos/dental-procedure</loc>
   <video:video>
-    <video:thumbnail_loc>https://navyadental.com/thumbnails/procedure.jpg</video:thumbnail_loc>
+    <video:thumbnail_loc>https://www.navyasinternationaldentalhospital.in/thumbnails/procedure.jpg</video:thumbnail_loc>
     <video:title>Dental Implant Procedure</video:title>
     <video:description>Step-by-step dental implant process</video:description>
   </video:video>
@@ -68,7 +68,7 @@
 ### **3. News Sitemap (for dental news/updates)**
 ```xml
 <url>
-  <loc>https://navyadental.com/news/dental-technology-2024</loc>
+  <loc>https://www.navyasinternationaldentalhospital.in/news/dental-technology-2024</loc>
   <news:news>
     <news:publication_date>2024-09-21</news:publication_date>
     <news:title>Latest Dental Technology Updates</news:title>
@@ -114,7 +114,7 @@
 ```bash
 # Add new URL to sitemap.xml
 <url>
-  <loc>https://navyadental.com/new-page</loc>
+  <loc>https://www.navyasinternationaldentalhospital.in/new-page</loc>
   <lastmod>2024-09-21</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
