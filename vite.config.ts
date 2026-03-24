@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    sitemap({ hostname: 'https://navyasdental.com', dynamicRoutes: ['/appointment', '/thank-you'] }),
+    sitemap({ hostname: 'https://www.navyasinternationaldentalhospital.in', dynamicRoutes: ['/appointment', '/thank-you'] }),
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
