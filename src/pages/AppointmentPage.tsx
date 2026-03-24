@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { useState, useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -223,6 +224,11 @@ const AppointmentPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-primary/5 to-background">
+      <SEO 
+        title="Book Dental Appointment | NAVYA'S Hospital Guntur"
+        description="Schedule your visit to NAVYA'S International Dental Hospital in Guntur. Trusted by 1000+ patients for expert cosmetic dentistry, implants, and general care."
+      />
+      
       {/* Google Ads Conversion Tracking */}
       <script
         dangerouslySetInnerHTML={{

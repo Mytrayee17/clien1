@@ -20,13 +20,13 @@ const Services = () => {
     features: ["T.M.J Ankylosis", "Orthognathic Surgery", "Lefort Fractures", "Pan-facial Fractures"]
   },{
     icon: dentalImplantIcon,
-    title: "Dental Implantology",
-    description: "World-class implants in association with Indian Dental Education Academy, Chennai.",
+    title: "Dental Implants in Guntur",
+    description: "World-class implants in association with Indian Dental Education Academy, Chennai. The best permanent solution.",
     features: ["Wide Range of Implants", "Expert Consultation", "Permanent Solution", "Natural Looking"]
   },{
     icon: rootCanalIcon,
     title: "Root Canal Treatment",
-    description: "Pain-free single sitting and multi-sitting root canal therapy using advanced endodontic techniques.",
+    description: "Pain-free, advanced laser and rotary root canal treatments in Guntur to save your natural tooth.",
     features: ["Single Sitting RCT", "Multi Sitting RCT", "Pain-free Treatment", "Advanced Technology"]
   },{
     icon: oralCareIcon,
@@ -51,7 +51,7 @@ const Services = () => {
   },{
     icon: cosmeticIcon,
     title: "Cosmetic Dentistry",
-    description: "Complete smile designing and aesthetic treatments for a perfect smile transformation.",
+    description: "Complete smile designing by the best cosmetic dentists in Guntur for a perfect transformation.",
     features: ["Smile Designing", "Lip Contouring", "Dimple Creation", "Dental Jewellery"]
   },{
     icon: oralCareIcon,

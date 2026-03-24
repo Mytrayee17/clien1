@@ -64,19 +64,17 @@ const Hero = () => {
                 <span className="block"><span className="text-primary">International</span> Dental Hospital</span>
               </h2>
               <p className="text-base sm:text-lg md:text-xl font-semibold leading-7 text-foreground/90 whitespace-nowrap">
-                World class dental &
-                <span className="bg-gradient-primary bg-clip-text text-transparent"> facial care</span>
-                , gentle, modern, human.
+                The Best 
+                <span className="bg-gradient-primary bg-clip-text text-transparent"> Dental Doctors in Guntur</span> — world-class, gentle care.
               </p>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                From routine dentistry to complex facial surgery—expert care in Guntur, 
-                welcoming patients from India and abroad.
+                From emergency toothache relief and painless root canals to complex facial surgery—top-rated care near you, welcoming patients locally and from abroad.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button onClick={() => scrollToSection('appointment')} size="lg" variant="gradient" className="shadow-hero text-lg px-8 py-6">
-                Book a caring consultation
+               <Button onClick={() => scrollToSection('appointment')} size="lg" variant="gradient" className="shadow-hero text-lg px-8 py-6">
+                Book a Top Dentist Near You
               </Button>
               
             </div>

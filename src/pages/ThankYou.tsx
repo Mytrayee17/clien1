@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -7,6 +8,10 @@ import { Link } from "react-router-dom";
 const ThankYou = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-secondary/30 to-background flex items-center justify-center p-4">
+      <SEO 
+        title="Thank You | NAVYA'S Dental Hospital"
+        description="Thank you for scheduling your consultation with NAVYA'S International Dental Hospital."
+      />
       <Card className="max-w-2xl w-full p-8 md:p-12 text-center shadow-hero bg-gradient-card backdrop-blur-sm">
         <div className="space-y-8">
           {/* Success Icon */}
