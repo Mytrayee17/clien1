@@ -31,7 +31,7 @@ export default function BlogPost() {
           "datePublished": "2026-06-25",
           "author": {
             "@type": "Person",
-            "name": "Dr. Navya Chowdary"
+            "name": "Prof. Dr. T. Kishore Babu"
           },
           "publisher": {
             "@type": "Organization",
@@ -55,7 +55,7 @@ export default function BlogPost() {
                 <Calendar className="h-3 w-3" /> {post.date}
               </span>
               <span className="text-xs text-muted-foreground flex items-center gap-1">
-                <User className="h-3 w-3" /> By Dr. Navya Chowdary
+                <User className="h-3 w-3" /> By Prof. Dr. T. Kishore Babu
               </span>
             </div>
 
@@ -67,7 +67,7 @@ export default function BlogPost() {
             <Card className="border-l-4 border-l-primary bg-secondary/20 border border-border/50">
               <CardContent className="p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
-                  <h4 className="font-bold text-primary">Need Professional Dental Help?</h4>
+                  <h2 className="font-bold text-primary text-base sm:text-lg">Need Professional Dental Help?</h2>
                   <p className="text-xs text-muted-foreground mt-0.5">Consult Navya's MDS specialists for custom treatment plans in Guntur.</p>
                 </div>
                 <div className="flex gap-2 w-full sm:w-auto">
@@ -81,7 +81,7 @@ export default function BlogPost() {
             <div className="h-64 bg-secondary/20 rounded-2xl flex items-center justify-center border border-border/50 overflow-hidden">
               <img 
                 src={post.image} 
-                alt={post.title} 
+                alt="Dental Article Illustration" 
                 className="h-32 w-32 object-contain opacity-30"
               />
             </div>

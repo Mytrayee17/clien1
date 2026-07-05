@@ -113,7 +113,7 @@ export default function KidsDentistry() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">NC</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Pediatric Dentist: Dr. M. Naresh Chandra (BDS)</h4>
+                <h3 className="font-bold text-lg">Lead Pediatric Dentist: Dr. M. Naresh Chandra (BDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-23456 | 15+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Dr. Naresh Chandra is an expert in gentle pediatric treatments, behavior management, and interceptive dental alignment correction for children.
@@ -129,21 +129,21 @@ export default function KidsDentistry() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Cavity Risk Evaluation & Cleanings</h4>
+                  <h3 className="font-bold">Cavity Risk Evaluation & Cleanings</h3>
                   <p className="text-sm text-muted-foreground">We gently clean baby teeth, polish margins, and evaluate active cavity risk profiles.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Fluoride Varnishing & Pit Sealants</h4>
+                  <h3 className="font-bold">Fluoride Varnishing & Pit Sealants</h3>
                   <p className="text-sm text-muted-foreground">Apply thin flowable plastic sealants over deep grooves in molar teeth to lock out bacterial decay.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Habit Breaking Appliances</h4>
+                  <h3 className="font-bold">Habit Breaking Appliances</h3>
                   <p className="text-sm text-muted-foreground">Custom mouthguards or orthodontic appliances are fitted to stop thumb-sucking and guide jaw development.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function KidsDentistry() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Pediatric Interventions</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Guarantees Cavity Protection</h4>
+                <h3 className="font-bold text-foreground mb-1">Guarantees Cavity Protection</h3>
                 <p>Pit sealants have been clinically proven to reduce molar cavities by up to 80%.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Guides Straight Teeth</h4>
+                <h3 className="font-bold text-foreground mb-1">Guides Straight Teeth</h3>
                 <p>Early space maintainers ensure adult teeth emerge in correct, aligned spacing.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Builds Positive Habits</h4>
+                <h3 className="font-bold text-foreground mb-1">Builds Positive Habits</h3>
                 <p>A fun, stress-free clinical visit eliminates dental anxiety for future years.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Painless Treatments</h4>
+                <h3 className="font-bold text-foreground mb-1">Painless Treatments</h3>
                 <p>We use topical numbing gels so children feel absolutely zero needle discomfort.</p>
               </div>
             </div>

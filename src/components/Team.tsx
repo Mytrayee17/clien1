@@ -77,11 +77,11 @@ const Team = () => {
               <Dialog>
                 <DialogTrigger asChild>
                   <div className="relative overflow-hidden bg-white h-56 sm:h-64 md:h-72 cursor-zoom-in">
-                    <img src={doctor.image} alt={doctor.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                    <img src={doctor.image} alt="Dental Specialist Profile" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-[90vw] sm:max-w-2xl md:max-w-4xl p-2 sm:p-4">
-                  <img src={doctor.image} alt={doctor.name} className="w-full h-auto max-h-[80vh] object-contain" />
+                  <img src={doctor.image} alt="Dental Specialist Full View" className="w-full h-auto max-h-[80vh] object-contain" />
                 </DialogContent>
               </Dialog>
               

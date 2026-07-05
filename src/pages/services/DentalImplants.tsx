@@ -113,7 +113,7 @@ export default function DentalImplants() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">KB</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h4>
+                <h3 className="font-bold text-lg">Lead Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-11002 | 25+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Prof. Dr. T. Kishore Babu is a highly experienced oral surgeon and leading implantologist in Guntur, dedicated to reconstructive surgeries and implants.
@@ -129,21 +129,21 @@ export default function DentalImplants() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Comprehensive Evaluation</h4>
+                  <h3 className="font-bold">Comprehensive Evaluation</h3>
                   <p className="text-sm text-muted-foreground">We conduct a full CBCT scan and 3D dental mapping to analyze bone volume and plan optimal placement angles.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Implant Placement</h4>
+                  <h3 className="font-bold">Implant Placement</h3>
                   <p className="text-sm text-muted-foreground">Under local anesthesia, the titanium post is inserted into the bone. The gum is closed and allowed to heal for 3-4 months.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Abutment & Crown Fitting</h4>
+                  <h3 className="font-bold">Abutment & Crown Fitting</h3>
                   <p className="text-sm text-muted-foreground">Once bone integration (osseointegration) is complete, an abutment is placed, followed by a custom ceramic or zirconia crown.</p>
                 </div>
               </div>
@@ -194,19 +194,19 @@ export default function DentalImplants() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Dental Implants</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Looks and Feels Natural</h4>
+                <h3 className="font-bold text-foreground mb-1">Looks and Feels Natural</h3>
                 <p>Designed to fuse with bone, implants look and behave like your natural teeth.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Prevents Bone Loss</h4>
+                <h3 className="font-bold text-foreground mb-1">Prevents Bone Loss</h3>
                 <p>Stimulates the jawbone structure, preventing typical facial sagging from tooth loss.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">No Damage to Adjacent Teeth</h4>
+                <h3 className="font-bold text-foreground mb-1">No Damage to Adjacent Teeth</h3>
                 <p>Unlike dental bridges, implants do not require grinding down neighboring healthy teeth.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Durable & Long-lasting</h4>
+                <h3 className="font-bold text-foreground mb-1">Durable & Long-lasting</h3>
                 <p>Implants are constructed with bio-compatible titanium and boast a 98% success rate.</p>
               </div>
             </div>

@@ -66,14 +66,14 @@ export default function GalleryPage() {
                 <div className="relative h-72 overflow-hidden bg-secondary/30">
                   <img 
                     src={item.image} 
-                    alt={item.title} 
+                    alt="Navya's Dental Hospital Facility View" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-80" />
                   <div className="absolute bottom-6 left-6 right-6 text-white">
                     <Badge className="bg-primary text-white font-semibold mb-2">Facility View</Badge>
-                    <h3 className="text-xl font-bold mb-1">{item.title}</h3>
+                    <h2 className="text-xl font-bold mb-1">{item.title}</h2>
                     <p className="text-xs text-white/80 leading-relaxed">{item.desc}</p>
                   </div>
                 </div>

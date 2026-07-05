@@ -123,7 +123,7 @@ export default function OurDoctors() {
                   <div className="h-64 bg-secondary/30 flex items-center justify-center border-b border-border/30 overflow-hidden">
                     <img 
                       src={doctor.image} 
-                      alt={doctor.name} 
+                      alt="Dental Doctor Profile" 
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     />
                   </div>

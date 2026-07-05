@@ -113,7 +113,7 @@ export default function CosmeticDentistry() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">NC</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Cosmetic Surgeon: Dr. M. Naresh Chandra (BDS)</h4>
+                <h3 className="font-bold text-lg">Lead Cosmetic Surgeon: Dr. M. Naresh Chandra (BDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-23456 | 15+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Dr. Naresh Chandra is an expert in cosmetic dental restoration, smile makeovers, and dental veneers, focused on restoring aesthetic confidence.
@@ -129,21 +129,21 @@ export default function CosmeticDentistry() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Consultation & Digital Mockup</h4>
+                  <h3 className="font-bold">Consultation & Digital Mockup</h3>
                   <p className="text-sm text-muted-foreground">We analyze your facial structure and create a temporary wax-up mockup so you can test and see your proposed smile beforehand.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Minimal Enamel Prep & Impressions</h4>
+                  <h3 className="font-bold">Minimal Enamel Prep & Impressions</h3>
                   <p className="text-sm text-muted-foreground">An ultra-thin layer of enamel (approx. 0.3mm) is polished, and digital impressions are sent to the lab to mill porcelain veneers.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Bonding & Finishing</h4>
+                  <h3 className="font-bold">Bonding & Finishing</h3>
                   <p className="text-sm text-muted-foreground">Veneers are bonded to teeth using high-strength light-cured resin cement. Bite margins are polished to perfection.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function CosmeticDentistry() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Smile Makeovers</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Instant Confidence Boost</h4>
+                <h3 className="font-bold text-foreground mb-1">Instant Confidence Boost</h3>
                 <p>A straight, bright smile dramatically improves self-esteem and social confidence.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Stain and Decay Resistant</h4>
+                <h3 className="font-bold text-foreground mb-1">Stain and Decay Resistant</h3>
                 <p>Porcelain materials are highly resistant to typical coffee, tea, and smoking stains.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Natural Translucency</h4>
+                <h3 className="font-bold text-foreground mb-1">Natural Translucency</h3>
                 <p>Advanced ceramic options mimic the light-reflecting properties of natural enamel.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Strengthens Damaged Teeth</h4>
+                <h3 className="font-bold text-foreground mb-1">Strengthens Damaged Teeth</h3>
                 <p>Cappings and overlays reinforce structural support for slightly cracked enamel surfaces.</p>
               </div>
             </div>

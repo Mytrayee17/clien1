@@ -113,7 +113,7 @@ export default function RootCanal() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">YS</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Endodontist: Dr. Y. Sucharitha (BDS, P.G.C.E)</h4>
+                <h3 className="font-bold text-lg">Lead Endodontist: Dr. Y. Sucharitha (BDS, P.G.C.E)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-41203 | 10+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Specializing in painless single-sitting rotary and laser-assisted root canals, Dr. Sucharitha has saved thousands of teeth with high success rates.
@@ -129,21 +129,21 @@ export default function RootCanal() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Anesthetic Numbs & Access Opening</h4>
+                  <h3 className="font-bold">Anesthetic Numbs & Access Opening</h3>
                   <p className="text-sm text-muted-foreground">Local anesthesia is administered for absolute pain relief. A tiny access opening is created in the tooth crown.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Rotary Cleaning & Laser Disinfection</h4>
+                  <h3 className="font-bold">Rotary Cleaning & Laser Disinfection</h3>
                   <p className="text-sm text-muted-foreground">Rotary files clean out the infected tissue. An advanced dental laser disinfects root canals targeting hidden pathogens.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Sealing & Dental Crown Placement</h4>
+                  <h3 className="font-bold">Sealing & Dental Crown Placement</h3>
                   <p className="text-sm text-muted-foreground">Canals are packed with gutta-percha sealant. The tooth is built up and capped with a zirconium or ceramic crown to restore strength.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function RootCanal() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Root Canal Treatments</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Immediate Pain Relief</h4>
+                <h3 className="font-bold text-foreground mb-1">Immediate Pain Relief</h3>
                 <p>Removes infected nerves and biological toxins, providing immediate relief.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Preserves Natural Tooth</h4>
+                <h3 className="font-bold text-foreground mb-1">Preserves Natural Tooth</h3>
                 <p>Avoids extraction, preventing neighboring teeth shifting and jawbone degeneration.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Aesthetic Crown Integration</h4>
+                <h3 className="font-bold text-foreground mb-1">Aesthetic Crown Integration</h3>
                 <p>Capping restores original tooth color, morphology, and high-performance chewing.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Cost-Effective</h4>
+                <h3 className="font-bold text-foreground mb-1">Cost-Effective</h3>
                 <p>Much less expensive than extracting the tooth and replacing it with an artificial bridge or implant.</p>
               </div>
             </div>
