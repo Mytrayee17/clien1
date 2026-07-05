@@ -113,7 +113,7 @@ export default function WisdomTooth() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">KB</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Oral Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h4>
+                <h3 className="font-bold text-lg">Lead Oral Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-11002 | 25+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Prof. Dr. T. Kishore Babu is a highly experienced oral surgeon and leading implantologist in Guntur, dedicated to reconstructive surgeries and implants.
@@ -129,21 +129,21 @@ export default function WisdomTooth() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">X-Ray / OPG Mapping</h4>
+                  <h3 className="font-bold">X-Ray / OPG Mapping</h3>
                   <p className="text-sm text-muted-foreground">We capture OPG dental scans to locate the roots relative to mandibular nerves for surgical safety.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Local Anesthesia & Extraction</h4>
+                  <h3 className="font-bold">Local Anesthesia & Extraction</h3>
                   <p className="text-sm text-muted-foreground">The treatment site is numbed. Impacted teeth are gently sectioned and extracted with zero discomfort.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Suturing & Post-Op Recovery</h4>
+                  <h3 className="font-bold">Suturing & Post-Op Recovery</h3>
                   <p className="text-sm text-muted-foreground">Sutures are placed to aid healing. Gauze is applied and detailed recovery guidelines are provided.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function WisdomTooth() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Removing Impacted Wisdom Teeth</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Stops Pain & Pressure</h4>
+                <h3 className="font-bold text-foreground mb-1">Stops Pain & Pressure</h3>
                 <p>Relieves constant pressure and swelling at the back of the jaw structure.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Protects Neighboring Molar</h4>
+                <h3 className="font-bold text-foreground mb-1">Protects Neighboring Molar</h3>
                 <p>Prevents food traps and cavities in adjacent second molars.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Avoids Cyst Formations</h4>
+                <h3 className="font-bold text-foreground mb-1">Avoids Cyst Formations</h3>
                 <p>Removes the risk of follicular cysts developing around hidden crowns.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Prevents Gum Infection</h4>
+                <h3 className="font-bold text-foreground mb-1">Prevents Gum Infection</h3>
                 <p>Stops painful swelling (pericoronitis) caused by bacteria trapped under gum flaps.</p>
               </div>
             </div>

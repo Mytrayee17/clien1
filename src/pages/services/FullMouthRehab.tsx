@@ -113,7 +113,7 @@ export default function FullMouthRehab() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">KB</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Lead Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h4>
+                <h3 className="font-bold text-lg">Lead Surgeon: Prof. Dr. T. Kishore Babu (MDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-11002 | 25+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Prof. Dr. T. Kishore Babu is a veteran oral surgeon and leading implantologist in Guntur, dedicating his career to reconstructive surgeries and complex dental rehabilitations.
@@ -129,21 +129,21 @@ export default function FullMouthRehab() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Bite & TMJ Analysis</h4>
+                  <h3 className="font-bold">Bite & TMJ Analysis</h3>
                   <p className="text-sm text-muted-foreground">We measure your jaw joint movement, chew pressures, and tooth alignment using advanced articulators and OPG scanning.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Clinical Foundation Treatments</h4>
+                  <h3 className="font-bold">Clinical Foundation Treatments</h3>
                   <p className="text-sm text-muted-foreground">Any necessary tooth extractions, implants placements, or root canals are completed to establish a healthy oral base.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Restorations & Crown Bonding</h4>
+                  <h3 className="font-bold">Restorations & Crown Bonding</h3>
                   <p className="text-sm text-muted-foreground">Custom zirconia bridges, porcelain crowns, and implants-supported dentures are built and bonded to rebuild your bite.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function FullMouthRehab() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Complete Rehabilitation</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Restores 100% Chew Function</h4>
+                <h3 className="font-bold text-foreground mb-1">Restores 100% Chew Function</h3>
                 <p>Eat healthy, solid foods again without any pain, discomfort, or clicking jaw joint sounds.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Relieves Chronic TMJ Headache</h4>
+                <h3 className="font-bold text-foreground mb-1">Relieves Chronic TMJ Headache</h3>
                 <p>Corrects jaw alignment imbalances that trigger persistent muscle soreness and headaches.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Youthful Facial Profiles</h4>
+                <h3 className="font-bold text-foreground mb-1">Youthful Facial Profiles</h3>
                 <p>Restores teeth height (vertical dimension) to plump up lips and smooth out cheek folds.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Durable Zirconia Material</h4>
+                <h3 className="font-bold text-foreground mb-1">Durable Zirconia Material</h3>
                 <p>We use premium, high-translucent monolithic zirconia crowns for fracture-proof chew performance.</p>
               </div>
             </div>

@@ -49,7 +49,7 @@ export default function BlogIndex() {
                   <div className="h-48 bg-secondary/30 flex items-center justify-center border-b border-border/30">
                     <img 
                       src={post.image} 
-                      alt={post.title} 
+                      alt="Dental Blog Article Cover"
                       className="h-24 w-24 object-contain opacity-40"
                     />
                   </div>

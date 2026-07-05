@@ -113,7 +113,7 @@ export default function BracesAligners() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center font-bold text-primary text-xl">RS</div>
               <div className="text-center md:text-left">
-                <h4 className="font-bold text-lg">Senior Orthodontist: Dr. M. Raja Sekar (MDS)</h4>
+                <h3 className="font-bold text-lg">Senior Orthodontist: Dr. M. Raja Sekar (MDS)</h3>
                 <p className="text-xs text-muted-foreground mt-1">DCI Reg. No: DCI-A-87654 | 15+ Years Experience</p>
                 <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                   Specialized in modern orthodontics and dentofacial orthopedics, Dr. Raja Sekar leads the teeth alignment and invisible aligner treatments.
@@ -129,21 +129,21 @@ export default function BracesAligners() {
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">1</div>
                 <div>
-                  <h4 className="font-bold">Digital Intraoral Scan & Imaging</h4>
+                  <h3 className="font-bold">Digital Intraoral Scan & Imaging</h3>
                   <p className="text-sm text-muted-foreground">We capture precise 3D scans of your jaw to simulate your final smile alignment before starting.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">2</div>
                 <div>
-                  <h4 className="font-bold">Brackets Placement or Custom Aligner Printing</h4>
+                  <h3 className="font-bold">Brackets Placement or Custom Aligner Printing</h3>
                   <p className="text-sm text-muted-foreground">Brackets are bonded to your teeth, or your customized transparent aligner trays are fabricated.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center font-bold flex-shrink-0">3</div>
                 <div>
-                  <h4 className="font-bold">Monthly Adjustments or Tray Changes</h4>
+                  <h3 className="font-bold">Monthly Adjustments or Tray Changes</h3>
                   <p className="text-sm text-muted-foreground">Periodic dental checkups are scheduled every 4 to 6 weeks to swap aligner trays or adjust archwires.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ export default function BracesAligners() {
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits of Alignment Treatments</h2>
             <div className="grid md:grid-cols-2 gap-4 text-muted-foreground text-sm">
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Aesthetic Smile Value</h4>
+                <h3 className="font-bold text-foreground mb-1">Aesthetic Smile Value</h3>
                 <p>Straight teeth boost personal confidence and enhance overall facial symmetry.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Easier Tooth Cleaning</h4>
+                <h3 className="font-bold text-foreground mb-1">Easier Tooth Cleaning</h3>
                 <p>Aligned teeth are easier to brush and floss, reducing risk of gum disease.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Improved Speech & Bite</h4>
+                <h3 className="font-bold text-foreground mb-1">Improved Speech & Bite</h3>
                 <p>Corrects jaw strain, improves pronunciation, and promotes proper digestion.</p>
               </div>
               <div className="p-4 border border-border/50 rounded-xl bg-card">
-                <h4 className="font-bold text-foreground mb-1">Invisible Alignment Options</h4>
+                <h3 className="font-bold text-foreground mb-1">Invisible Alignment Options</h3>
                 <p>Clear aligners are removable, allowing you to eat your favorite foods easily.</p>
               </div>
             </div>
