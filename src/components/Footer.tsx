@@ -1,16 +1,9 @@
+import { Link } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Clock, Mail, Facebook, Instagram, Youtube, Award } from "lucide-react";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
-  };
   return <footer className="bg-dark-accent text-dark-accent-foreground">
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 md:gap-8">
@@ -58,37 +51,30 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
-            <div className="space-y-3">
-              <button onClick={() => scrollToSection('home')} className="block text-gray-300 hover:text-white transition-colors text-sm">
-                Home
-              </button>
-              <button onClick={() => scrollToSection('services')} className="block text-gray-300 hover:text-white transition-colors text-sm">
-                Our Services
-              </button>
-              <button onClick={() => scrollToSection('team')} className="block text-gray-300 hover:text-white transition-colors text-sm">
-                Our Team
-              </button>
-              <button onClick={() => scrollToSection('gallery')} className="block text-gray-300 hover:text-white transition-colors text-sm">
-                Gallery
-              </button>
-              <button onClick={() => scrollToSection('appointment')} className="block text-gray-300 hover:text-white transition-colors text-sm">
-                Book Appointment
-              </button>
+            <div className="flex flex-col space-y-3">
+              <Link to="/" className="text-gray-300 hover:text-white transition-colors text-sm">Home</Link>
+              <Link to="/about-us" className="text-gray-300 hover:text-white transition-colors text-sm">About Us</Link>
+              <Link to="/services" className="text-gray-300 hover:text-white transition-colors text-sm">Our Services</Link>
+              <Link to="/our-doctors" className="text-gray-300 hover:text-white transition-colors text-sm">Our Doctors</Link>
+              <Link to="/safety-and-sterilization" className="text-gray-300 hover:text-white transition-colors text-sm">Safety & Sterilization</Link>
+              <Link to="/gallery" className="text-gray-300 hover:text-white transition-colors text-sm">Gallery</Link>
+              <Link to="/testimonials" className="text-gray-300 hover:text-white transition-colors text-sm">Testimonials</Link>
+              <Link to="/blog" className="text-gray-300 hover:text-white transition-colors text-sm">Blog & News</Link>
+              <Link to="/contact-us" className="text-gray-300 hover:text-white transition-colors text-sm">Contact Us</Link>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-bold text-white mb-6">Our Services</h4>
-            <div className="space-y-3 text-sm text-gray-300">
-              <div>General Dentistry</div>
-              <div>Cosmetic Dentistry</div>
-              <div>Root Canal Treatment</div>
-              <div>Dental Implants</div>
-              <div>Orthodontics</div>
-              <div>Maxillofacial Surgery</div>
-              <div>Pediatric Dentistry</div>
-              <div>Periodontics</div>
+            <h4 className="text-lg font-bold text-white mb-6">Specialties</h4>
+            <div className="flex flex-col space-y-3 text-sm">
+              <Link to="/services/dental-implants-in-guntur" className="text-gray-300 hover:text-white transition-colors">Dental Implants</Link>
+              <Link to="/services/braces-and-aligners-in-guntur" className="text-gray-300 hover:text-white transition-colors">Braces & Aligners</Link>
+              <Link to="/services/root-canal-treatment-in-guntur" className="text-gray-300 hover:text-white transition-colors">Root Canal Treatment</Link>
+              <Link to="/services/cosmetic-dentistry-in-guntur" className="text-gray-300 hover:text-white transition-colors">Cosmetic Dentistry</Link>
+              <Link to="/services/wisdom-tooth-removal-in-guntur" className="text-gray-300 hover:text-white transition-colors">Wisdom Tooth Removal</Link>
+              <Link to="/services/kids-dentistry-in-guntur" className="text-gray-300 hover:text-white transition-colors">Kids Dentistry</Link>
+              <Link to="/services/full-mouth-rehabilitation-in-guntur" className="text-gray-300 hover:text-white transition-colors">Full Mouth Rehabilitation</Link>
             </div>
           </div>
         </div>
