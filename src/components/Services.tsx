@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ReviewsCarousel } from "./ReviewsCarousel";
+import { useNavigate } from "react-router-dom";
 
 // Import professional medical icons
 import rootCanalIcon from "@/assets/icons/root-canal-icon.png";
@@ -13,6 +14,7 @@ import oralCareIcon from "@/assets/icons/oral-care-icon.png";
 import laserIcon from "@/assets/icons/laser-icon.png";
 import sedationIcon from "@/assets/icons/sedation-icon.png";
 const Services = () => {
+  const navigate = useNavigate();
   const services = [{
     icon: surgeryIcon,
     title: "Maxillofacial Surgeries",
@@ -64,12 +66,24 @@ const Services = () => {
     description: "Comfortable dental treatments with sedation options for anxious patients.",
     features: ["Anxiety Management", "Comfortable Treatment", "Safe Sedation", "Relaxed Experience"]
   }];
-  const scrollToAppointment = () => {
-    const element = document.getElementById('appointment');
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth'
-      });
+  const getRouteForService = (title: string) => {
+    switch (title) {
+      case "Dental Implants in Guntur":
+        return "/services/dental-implants-in-guntur";
+      case "Orthodontics":
+        return "/services/braces-and-aligners-in-guntur";
+      case "Root Canal Treatment":
+        return "/services/root-canal-treatment-in-guntur";
+      case "Cosmetic Dentistry":
+        return "/services/cosmetic-dentistry-in-guntur";
+      case "Maxillofacial Surgeries":
+        return "/services/wisdom-tooth-removal-in-guntur";
+      case "Pediatric Dentistry":
+        return "/services/kids-dentistry-in-guntur";
+      case "Prosthodontics":
+        return "/services/full-mouth-rehabilitation-in-guntur";
+      default:
+        return "/services";
     }
   };
   return <section id="services" className="py-24 bg-secondary/30">
@@ -83,7 +97,7 @@ const Services = () => {
               Through our comprehensive dental specialties, we provide in-depth expertise in the spectrum of advanced dental and surgical interventions. Our specialties are integrated to provide a seamless experience.
             </p>
           </div>
-          <Button variant="ghost" className="text-primary font-semibold hidden md:flex items-center gap-2">
+          <Button onClick={() => navigate('/services')} variant="ghost" className="text-primary font-semibold hidden md:flex items-center gap-2">
             VIEW ALL
             <span className="text-lg">→</span>
           </Button>
@@ -93,12 +107,12 @@ const Services = () => {
           {/* All Service Cards */}
           {services.slice(0, 8).map((service, index) => {
             return (
-              <Card key={index} className="group hover:shadow-elevated hover:shadow-primary/20 transition-all duration-300 hover:-translate-y-2 hover:scale-105 bg-card/80 backdrop-blur-sm cursor-pointer hover:bg-blue-600 hover:border-blue-600" onClick={scrollToAppointment}>
+              <Card key={index} className="group hover:shadow-elevated hover:shadow-primary/20 transition-all duration-300 hover:-translate-y-2 hover:scale-105 bg-card/80 backdrop-blur-sm cursor-pointer hover:bg-blue-600 hover:border-blue-600" onClick={() => navigate(getRouteForService(service.title))}>
                 <CardContent className="p-6 text-center h-full flex flex-col relative overflow-hidden">
                   <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-white group-hover:scale-110 transition-all duration-300 p-2">
                     <img 
                       src={service.icon} 
-                      alt={`${service.title} icon`}
+                      alt="Dental Service Specialty Icon"
                       className="w-full h-full object-contain transition-all duration-300"
                     />
                   </div>
@@ -130,7 +144,7 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <Button onClick={scrollToAppointment} size="lg" variant="gradient" className="shadow-hero">
+          <Button onClick={() => navigate('/book-appointment')} size="lg" variant="gradient" className="shadow-hero">
             Schedule Your Consultation Today
           </Button>
         </div>

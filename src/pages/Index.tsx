@@ -19,7 +19,7 @@ const Index = () => {
           "@graph": [
             {
               "@type": "Dentist",
-              "name": "Kondabolu Chowdary Memorial NAVYA'S INTERNATIONAL DENTAL HOSPITAL",
+              "name": "Kondaiah Chowdary Memorial NAVYA'S INTERNATIONAL DENTAL HOSPITAL",
               "description": "World-class dental care in Guntur.",
               "address": {
                 "@type": "PostalAddress",

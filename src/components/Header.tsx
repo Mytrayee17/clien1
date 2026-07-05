@@ -1,14 +1,10 @@
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock } from "lucide-react";
+
 const Header = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
-  };
+  const navigate = useNavigate();
+
   return <header className="bg-background/95 backdrop-blur-md border-b border-border/50 sticky top-0 z-50 shadow-card">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
@@ -24,9 +20,9 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:08632235113/12" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
+            <a href="tel:08632235113" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
               <Phone className="h-4 w-4" />
-              <span>0863-2235113/12</span>
+              <span>0863-2235113</span>
             </a>
             <a href="tel:9100831618" className="flex items-center gap-2 text-primary hover:text-accent transition-colors">
               <Phone className="h-4 w-4" />
@@ -37,7 +33,7 @@ const Header = () => {
 
         {/* Main Navigation */}
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
             <div className="h-12 w-12 rounded-full overflow-hidden bg-white p-1 shadow-lg">
               <img src="/lovable-uploads/logo.png" alt="NAVYA'S Dental Hospital" className="h-full w-full object-contain" />
             </div>
@@ -45,17 +41,21 @@ const Header = () => {
               <h1 className="text-xl font-bold text-foreground">NAVYA'S</h1>
               <p className="text-sm text-muted-foreground">International Dental Hospital</p>
             </div>
-          </div>
+          </Link>
 
-          <nav className="hidden lg:flex items-center gap-8">
-            <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors">Home</button>
-            <button onClick={() => scrollToSection('services')} className="text-foreground hover:text-primary transition-colors">Services</button>
-            <button onClick={() => scrollToSection('team')} className="text-foreground hover:text-primary transition-colors">Our Team</button>
-            <button onClick={() => scrollToSection('gallery')} className="text-foreground hover:text-primary transition-colors">Gallery</button>
-            <button onClick={() => scrollToSection('emergency-contact')} className="text-foreground hover:text-primary transition-colors">Contact</button>
+          <nav className="hidden lg:flex items-center gap-6">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Home</Link>
+            <Link to="/about-us" className="text-foreground hover:text-primary transition-colors text-sm font-medium">About</Link>
+            <Link to="/services" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Services</Link>
+            <Link to="/our-doctors" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Doctors</Link>
+            <Link to="/safety-and-sterilization" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Safety</Link>
+            <Link to="/gallery" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Gallery</Link>
+            <Link to="/testimonials" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Testimonials</Link>
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Blog</Link>
+            <Link to="/contact-us" className="text-foreground hover:text-primary transition-colors text-sm font-medium">Contact</Link>
           </nav>
 
-          <Button onClick={() => scrollToSection('appointment')} variant="gradient" className="shadow-hero">
+          <Button onClick={() => navigate('/book-appointment')} variant="gradient" className="shadow-hero">
             Book Appointment
           </Button>
         </div>
